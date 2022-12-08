@@ -1,0 +1,39 @@
+/* -----for removing no increment decrement in input fiele------ */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* ----------------------------- */
+
+*{
+    text-align:center ;
+}
+#parent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#puzzle{
+  margin-top: 30px;
+width: 450px;
+height: 450px;
+}
+
+#puzzle input{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box; /*moves border inside*/
+    border-spacing: 0;
+    border:1px grey solid
+}
+
+button{
+
+  margin: 50px;
+  margin-top: 40px;
+
+}
+.odd-section{
+  background-color:aqua ;
+}
